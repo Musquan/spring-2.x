@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-2.x
+  description: A software component for the Musquan organization, focusing on the Spring 2.x framework.
+  annotations:
+    github.com/project-slug: Musquan/spring-2.x
+    jira/project-key: SCRUM
+    jira/label: backstage-component:spring-2.x
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
